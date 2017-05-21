@@ -7,4 +7,4 @@
 # print 'I "said" do not touch this.'
 # Start study drill
 print "Here's another line"
-print "This is way too crazy, AY"
+print "This is way too crazy"
