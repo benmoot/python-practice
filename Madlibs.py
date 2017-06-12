@@ -21,4 +21,6 @@ dessert = raw_input("Your favorite dessert:")
 year = raw_input("What year is it?:")
 
 #The template for the story
-STORY = "This morning I woke up and felt %s because %s was going to finally %s over the big %s %s. On the other side of the %s were many %s protesting to keep %s in stores. The crowd began to %s to the rythym of the %s, which made all of the %s very %s. %s tried to %s into the sewers and found %s rats. Needing help, %s quickly called %s. %s appeared and saved %s by flying to %s and dropping %s into a puddle of %s. %s then fell asleep and woke up in the year %s, in a world where %s ruled the world." (name, adj1, adj3, animal)
+STORY = "This morning I woke up and felt %s because %s was going to finally %s over the big %s %s. On the other side of the %s were many %s protesting to keep %s in stores. The crowd began to %s to the rhythm of the %s, which made all of the %s very %s. %s tried to %s into the sewers and found %s rats. Needing help, %s quickly called %s. %s appeared and saved %s by flying to %s and dropping %s into a puddle of %s. %s then fell asleep and woke up in the year %s, in a world where %s ruled the world." (name, adj1, adj3, animal)
+
+print(STORY)
