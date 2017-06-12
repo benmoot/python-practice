@@ -6,3 +6,5 @@ meal = meal+meal*tax
 total = meal+meal*tip
 
 print("%.2f" % total)
+
+# I finally understand this shit so I'm committing it.
