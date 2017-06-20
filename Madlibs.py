@@ -21,4 +21,7 @@ dessert = raw_input("Your favorite dessert:")
 year = raw_input("What year is it?:")
 
 #The template for the story that doesn't want to work
-print STORY % (name, adj1, adj2) "This morning I woke up and felt %s because %s was going to finally %s over the big %s %s. On the other side of the %s were many %s protesting to keep %s in stores. The crowd began to %s to the rhythm of the %s, which made all of the %s very %s. %s tried to %s into the sewers and found %s rats. Needing help, %s quickly called %s. %s appeared and saved %s by flying to %s and dropping %s into a puddle of %s. %s then fell asleep and woke up in the year %s, in a world where %s ruled the world."
+STORY = "This morning I woke up and felt '{}' because '{}' was going to finally '{}' over the big '{}' '{}'. On the other side of the '{}' were many '{}' protesting to keep '{}' in stores. The crowd began to '{}' to the rhythm of the '{}', which made all of the '{}' very '{}'. '{}' tried to '{}' into the sewers and found '{}' rats. Needing help, '{}' quickly called '{}'. '{}' appeared and saved '{}' by flying to '{}' and dropping '{}' into a puddle of '{}'. '{}' then fell asleep and woke up in the year '{}', in a world where '{}' ruled the world.".format('adj1', 'adj2')
+
+print STORY
+# TODO: find out why this shit doesn't work
