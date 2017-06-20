@@ -39,5 +39,4 @@ print("5 // 2 =", 5//2)
 # order of operations states * and / performed before + and -
 print("1 + 2 - 3 * 2 =", 1 + 2 - 3 * 2)
 print ("(1 + 2 - 3) *2 =", (1 + 2 - 3) * 2)
-
 # TODO: finish cheat sheet at: http://www.newthinktank.com/2014/11/python-programming/
